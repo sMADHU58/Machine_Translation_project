@@ -1,0 +1,12 @@
+# Ignore python cache and virtual environments
+__pycache__/
+venv/
+.env
+
+# Ignore large datasets and model weights
+*.pth
+*.h5
+*.bin
+data/
+outputs/
+models/
